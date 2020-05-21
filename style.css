@@ -1,0 +1,31 @@
+body {
+    background-color: #FFA07A;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#title {
+    text-align: center;
+}
+
+.game-container1 {
+    background-color: #FFDAB9;
+
+}
+
+#textbox {
+    font-size: 30px;
+    font-family: arial; 
+}
+
+#roll-button {
+    background-color: #cd5c5c;
+    font-size: 30px;
+    font-family: arial; 
+}
+
+#show-rolls {
+    background-color: #cd5c5c;
+    font-size: 30px;
+    font-family: arial; 
+}

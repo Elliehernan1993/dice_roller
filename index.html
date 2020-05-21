@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class=game_container>
-    <label for="Number_of_die">Enter number of dice:</label>
-    <input type="text" name="Number_of_die" id="textbox">
-    <button id="roll-button">Roll!</button>
+    <div class="game-container1">
+            <h1 id="title">Dice Roller Game</h1>
+            <label for="number_of_die">Enter number of dice:</label>
+            <input type="text" name="number_of_die" id="textbox">
+            <button id="roll-button">Roll!</button> 
+            <p id="total">Total:</p>
+            <button id="show-rolls">Show All Rolls</button>
+            <ol id="all-rolls">
+
+            </ol>
+
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
 
